@@ -37,4 +37,19 @@ while ($running) {
         }
 
     }
+
+    elseif ($choice === "2") {
+        // View Contacts
+        echo "\n--- Saved Contacts ---\n";
+        if ($contact1_name !== "") {
+            echo "1. Name: $contact1_name | Phone: $contact1_phone\n";
+        }
+        if ($contact2_name !== "") {
+            echo "2. Name: $contact2_name | Phone: $contact2_phone\n";
+        }
+        if ($contact1_name === "" && $contact2_name === "") {
+            echo "No contacts saved yet.\n";
+        }
+
+    }
 }
