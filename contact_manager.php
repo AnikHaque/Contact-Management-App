@@ -52,4 +52,11 @@ while ($running) {
         }
 
     }
+
+    elseif ($choice === "3") {
+        // Exit
+        echo "Goodbye!\n";
+        $running = false;
+
+    }
 }
