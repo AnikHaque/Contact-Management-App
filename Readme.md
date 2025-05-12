@@ -1,6 +1,6 @@
-# 📇 Terminal-Based Contact Management App
+# Terminal-Based Contact Management App
 
-## 🛠 Features
+## Features
 
 - Add a contact (up to 2 total)
 - View saved contacts
@@ -14,13 +14,13 @@
 
 ---
 
-## 📂 File
+## File
 
 - `contact_manager.php` — main PHP file for the app
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Make sure PHP is installed on your machine. Then:
 
