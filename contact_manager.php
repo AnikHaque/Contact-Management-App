@@ -59,4 +59,8 @@ while ($running) {
         $running = false;
 
     }
+
+    else {
+        echo "Invalid option. Please enter 1, 2, or 3.\n";
+    }
 }
