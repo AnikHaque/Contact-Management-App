@@ -34,6 +34,20 @@ while (true) {
         }
         $question = $question + 1;
     }
-
+    elseif ($question === 3) {
+        echo "\nQuestion 3: Which language is used for web development?\n";
+        echo "a) PHP\n";
+        echo "b) C\n";
+        echo "c) Java\n";
+        echo "Your answer: ";
+        $answer = trim(fgets(STDIN));
+        if ($answer === "a") {
+            echo "Correct!\n";
+            $score = $score + 1;
+        } else {
+            echo "Incorrect. The correct answer is a) PHP.\n";
+        }
+        $question = $question + 1;
+    } 
 
 }
