@@ -31,3 +31,4 @@ while (true) {
             $score = $score + 1;
         }
 }
+}
