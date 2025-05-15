@@ -31,4 +31,8 @@ while (true) {
             $score = $score + 1;
         }
 }
+else {
+    echo "Incorrect. The correct answer is b) 4.\n";
+}
+$question = $question + 1;
 }
