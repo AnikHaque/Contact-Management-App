@@ -19,4 +19,15 @@ while (true) {
         }
         $question = $question + 1;
     }
+    elseif ($question === 2) {
+        echo "\nQuestion 2: What is 2 + 2?\n";
+        echo "a) 3\n";
+        echo "b) 4\n";
+        echo "c) 5\n";
+        echo "Your answer: ";
+        $answer = trim(fgets(STDIN));
+        if ($answer === "b") {
+            echo "Correct!\n";
+            $score = $score + 1;
+        }
 }
