@@ -29,10 +29,11 @@ while (true) {
         if ($answer === "b") {
             echo "Correct!\n";
             $score = $score + 1;
+        } else {
+            echo " Incorrect. The correct answer is b) 4.\n";
         }
-}
-else {
-    echo "Incorrect. The correct answer is b) 4.\n";
-}
-$question = $question + 1;
+        $question = $question + 1;
+    }
+
+
 }
