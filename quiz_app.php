@@ -49,5 +49,8 @@ while (true) {
         }
         $question = $question + 1;
     } 
-
+    else {
+        echo "\n🎉 Quiz Complete! You got $score out of 3 correct.\n";
+        break;
+    }
 }
